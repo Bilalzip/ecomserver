@@ -22,7 +22,7 @@ const CreatePayment = async (orderId)=>{
                 email: true,
             },
             reminder_enable : true,
-            callback_url : `http://localhost:5173/payments/${orderId}`,
+            callback_url : `https://65d6ecc7887506662ad425cd--extraordinary-arithmetic-35c099.netlify.app/payments/${orderId}`,
             callback_method : 'get'
         };
         try {
